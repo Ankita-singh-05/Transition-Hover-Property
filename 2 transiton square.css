@@ -1,0 +1,16 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+    background-color: #C89595;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+div:hover{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #6C4A4A;
+    transform: rotate(180deg);
+}
